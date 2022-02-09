@@ -29,5 +29,3 @@ You should output all information to stdout in the following format:
 For each address you read (except the final -1), output a line containing the address itself (in hex form), followed by a space, followed by a single character: H for cache hit or M for cache miss.
 
 Once you read -1, output on a single line the miss rate of the cache that you have calculated, followed by a space, followed by the total cycles spent during the simulation. Remember to complete this last output line with a newline character, then exit the simulation.
-
-Grading policy for the homework: 5 for correct implementation of a direct-mapped cache, 5 for correct implementation of a set associative cache, 5 for correct implementation of a fully associative cache.
